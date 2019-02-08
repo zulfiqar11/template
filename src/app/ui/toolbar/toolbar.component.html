@@ -20,6 +20,26 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>template</span>
+
+      <span>Weather Map</span>
+      <span class="spacer"></span>
+      <span>
+        <a *ngIf="!(userAuth.user | async)?.uid"
+           class="bg-color"
+           [routerLink]="['/user/login']"
+           >Login</a>
+        <a *ngIf="(userAuth.user | async)?.uid"
+           class="bg-color"
+           [routerLink]="['/user/profile']"
+           >Profile</a>
+        <a *ngIf="(userAuth.user | async)?.uid"
+           class="bg-color"
+           (click)="userAuth.logout()"
+           >Logout</a>
+      </span>
+
+
+
     </mat-toolbar>
       <router-outlet></router-outlet>
   </mat-sidenav-content>

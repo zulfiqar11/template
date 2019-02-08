@@ -7,6 +7,7 @@ import { SavedCitiesComponent } from './saved-cities/saved-cities.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MaterialModule } from '../shared/material.module';
 import { NgxAuthFirebaseUIModule } from 'ngx-auth-firebaseui';
+import { Router } from '@angular/router';
 
 @NgModule({
   declarations: [LoginComponent, SavedCitiesComponent, ProfileComponent],
@@ -14,6 +15,7 @@ import { NgxAuthFirebaseUIModule } from 'ngx-auth-firebaseui';
     CommonModule,
     MaterialModule,
     NgxAuthFirebaseUIModule,
+    Router,
     UserRoutingModule
   ]
 })
