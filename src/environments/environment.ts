@@ -5,14 +5,21 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: '<your-key>',
-    authDomain: '<your-project-authdomain>',
-    databaseURL: '<your-database-URL>',
-    projectId: '<your-project-id>',
-    storageBucket: '<your-storage-bucket>',
-    messagingSenderId: '<your-messaging-sender-id>'
+    apiKey: 'AIzaSyDUXztorxGbCkvYkLls5a1LtLMA6yvaOxs',
+    authDomain: 'weatherapp-2e8e9.firebaseapp.com',
+    databaseURL: 'https://weatherapp-2e8e9.firebaseio.com',
+    projectId: 'weatherapp-2e8e9',
+    storageBucket: 'weatherapp-2e8e9.appspot.com',
+    messagingSenderId: '8310454804'
   }
 };
+
+// apiKey: "AIzaSyDUXztorxGbCkvYkLls5a1LtLMA6yvaOxs",
+// authDomain: "weatherapp-2e8e9.firebaseapp.com",
+// databaseURL: "https://weatherapp-2e8e9.firebaseio.com",
+// projectId: "weatherapp-2e8e9",
+// storageBucket: "weatherapp-2e8e9.appspot.com",
+// messagingSenderId: "8310454804"
 
 // export const environment = {
 //   production: false

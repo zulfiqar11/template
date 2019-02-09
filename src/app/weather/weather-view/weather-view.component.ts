@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthProvider } from 'ngx-auth-firebaseui';
 
 @Component({
   selector: 'app-weather-view',
@@ -8,7 +7,7 @@ import { AuthProvider } from 'ngx-auth-firebaseui';
 })
 export class WeatherViewComponent implements OnInit {
 
-  providers = AuthProvider;
+
   constructor() { }
 
   ngOnInit() {
